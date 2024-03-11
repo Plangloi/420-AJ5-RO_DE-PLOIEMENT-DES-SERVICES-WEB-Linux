@@ -38,7 +38,7 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli" > Dockerfile
 
 ### Ajouter les commandes au fichier Docker-Compose :
 
-```yaml
+```
 echo "
 
 "version: '3.8'
