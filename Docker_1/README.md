@@ -12,23 +12,23 @@
 
 ## Étape 1 - Création des fichiers
 
-```
+```bash
 mkdir [Nouveau dossier]
 ```
-```
+```bash
 cd [Nouveau dossier]
 ```
 
-```
+```bash
 touch docker-compose.yaml index.php Dockerfile
 ```
-```
+```nash
 chmod 777 docker-compose.yaml index.php Dockerfile
 ```
 ### Ajouter les commandes au fichier Dockerfile :
 
 #
-```
+```bash
 echo "
 FROM php:8.0-apache 
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli" > Dockerfile
@@ -38,7 +38,7 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli" > Dockerfile
 
 ### Ajouter les commandes au fichier Docker-Compose :
 
-```
+```yml
 echo "
 
 "version: '3.8'
@@ -90,7 +90,7 @@ services:
 ### Ajouter les commandes au fichier index.php :
 
 #
-```
+```php
 echo "
 <?php
 $msg="";
@@ -235,16 +235,16 @@ $msg="";
 ```
 
 ### Verifier si le toute est bien dans les fichier :
-```
+```bash
 cat Docker
 
 ```
-```
+```bash
 
 cat docker-compose.yml
 
 ```
-```
+```bash
 
 cat index.php
 
@@ -252,14 +252,13 @@ cat index.php
 
 ## Démarrage des Docker avec Docker-compose :
 
-```
+```bash
 sudo docker-compose up -d
 
 ```
-
 ## Stopper ou Detruire les Docker!
 
-```
+```bash
 sudo docker-compose stop
 
 ```
@@ -267,7 +266,7 @@ sudo docker-compose stop
 
 > [!WARNING]  
 > Va detruire tout les Docker!!
-```
+```bash
 sudo docker-compose down
 
 ```
