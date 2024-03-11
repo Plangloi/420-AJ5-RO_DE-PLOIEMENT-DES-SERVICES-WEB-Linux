@@ -29,9 +29,9 @@ chmod 777 docker-compose.yaml index.php Dockerfile
 
 #
 ```bash
-echo "
+
 FROM php:8.0-apache 
-RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli" > Dockerfile
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli"
 ```
 
 #
