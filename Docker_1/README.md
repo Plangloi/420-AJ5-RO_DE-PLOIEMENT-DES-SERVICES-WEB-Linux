@@ -39,7 +39,6 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli"
 ### Ajouter les commandes au fichier Docker-Compose :
 
 ```yml
-echo "
 
 "version: '3.8'
 
@@ -78,8 +77,6 @@ services:
           PMA_HOST: db
         depends_on:
           - db
-
-" > docker-compose.yml
 ```
 > [!CAUTION]
 > Port :8010,9906,8088
@@ -89,7 +86,7 @@ services:
 
 ### Ajouter les commandes au fichier index.php :
 
-#
+
 ```php
 echo "
 <?php
@@ -230,7 +227,7 @@ $msg="";
             </form></div>
     </body>
 </html>
-" > index.php
+
 
 ```
 
