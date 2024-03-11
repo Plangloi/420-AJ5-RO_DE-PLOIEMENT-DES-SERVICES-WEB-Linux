@@ -40,7 +40,7 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli"
 
 ```yml
 
-"version: '3.8'
+version: '3.8'
 
 
 services:
