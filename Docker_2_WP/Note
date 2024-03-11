@@ -1,0 +1,16 @@
+commandes sql
+show databases;
+
+create database employee;
+
+show databases;
+
+use employee;
+
+create table emp_info(emp_id int(11),emp_name varchar(50),emp_username varchar(50),emp_password varchar(50),emp_email varchar(50),emp_phone bigint(20)); 
+
+show tables;
+
+desc emp_info;
+
+ 
