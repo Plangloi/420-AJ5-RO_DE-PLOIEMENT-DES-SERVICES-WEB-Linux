@@ -14,10 +14,10 @@
 ## Étape 1 - Création des fichiers
 
 ```bash
-mkdir [Nouveau dossier]
+mkdir Docker_1
 ```
 ```bash
-cd [Nouveau dossier]
+cd Docker_1
 ```
 
 ```bash
@@ -30,9 +30,10 @@ chmod 777 docker-compose.yaml index.php Dockerfile
 
 #
 ```bash
-
+cat "
 FROM php:8.0-apache 
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+" >> Dockerfiles
 ```
 
 #
