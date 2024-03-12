@@ -2,7 +2,8 @@
 
 
 ### Prérequis:
-## Installation de :
+## Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.
+
 - [ ] [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
 - [ ] Connections a Internet
@@ -22,7 +23,7 @@ cd [Nouveau dossier]
 ```bash
 touch docker-compose.yaml index.php Dockerfile
 ```
-```nash
+```bash
 chmod 777 docker-compose.yaml index.php Dockerfile
 ```
 ### Ajouter les commandes au fichier Dockerfile :
