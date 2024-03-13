@@ -9,8 +9,12 @@
    ```bash
    sudo apt install docker-compose
    ```
- 
 
+
+
+
+
+   
 ## Étape 1 - Création des fichiers
 
 ```bash
@@ -26,24 +30,41 @@ touch docker-compose.yaml index.php Dockerfile
 ```bash
 chmod 777 docker-compose.yaml index.php Dockerfile
 ```
-### Ajouter les commandes au fichier Dockerfile :
 
-#
+
+
+
+
+
+
+
+## Etape 2 - Ajouter les commandes au fichier Dockerfile :
+
+```bash 
+nano Dokerfile
+ ```
+ Ensuite copier ceci :
+
 ```bash
-cat > Dockerfile <<EOF
 FROM php:8.0-apache 
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
-EOF
-
 ```
+<kbd>Ctrl</kbd> + <kbd>X</kbd>
 
-#
+<kbd>Y</kbd>
 
-### Ajouter les commandes au fichier docker-Compose :
+<kbd>Enter</kbd>
 
-```bash
+### Ajouter les commandes au fichier docker-compose.yaml :
 
-cat > docker-compose.yaml <<EOF
+```bash 
+nano docker-compose.yaml
+ ```
+ Ensuite copier ceci :
+
+
+```yaml
+
 version: '3.8'
 
 
@@ -81,24 +102,38 @@ services:
           PMA_HOST: db
         depends_on:
           - db
-EOF
 ```
+<kbd>Ctrl</kbd> + <kbd>X</kbd>
+
+<kbd>Y</kbd>
+
+<kbd>Enter</kbd>  
+
+
 > [!CAUTION]
 > Port :8010,9906,8088
 > Verifier que les port son disponible!
 > Vous pouvez utiliser :
-```
+
+Linux pour vérifier si un port est libre.
+
+```bash
 netstat -tuln
 ```
- sur Linux pour vérifier si un port est libre.
+
+
+
+
+
 
 
 ### Ajouter les commandes au fichier index.php :
-
-
 ```bash
+nano index.php
+ ```
+ Ensuite copier ceci :
 
-cat > index.php <<EOF
+```php
 
 <?php
 $msg="";
@@ -238,39 +273,35 @@ $msg="";
             </form></div>
     </body>
 </html>
-
-EOF
-
 ```
+<kbd>Ctrl</kbd> + <kbd>X</kbd>
+
+<kbd>Y</kbd>
+
+<kbd>Enter</kbd>
+
+
+
+
 
 ### Verifier si le toute est bien dans les fichier :
 ```bash
-
 cat Dockerfile
-
 ```
 ```bash
-
-cat docker-compose.yml
-
+cat docker-compose.yaml
 ```
 ```bash
-
 cat index.php
-
 ```
-
 ## Démarrage des Docker avec Docker-compose :
-
 ```bash
 sudo docker-compose up -d
-
 ```
 ## Stopper ou Détruire les Docker!
 
 ```bash
 sudo docker-compose stop
-
 ```
 
 
@@ -278,6 +309,5 @@ sudo docker-compose stop
 > Va detruire tout les Docker!!
 ```bash
 sudo docker-compose down
-
 ```
 

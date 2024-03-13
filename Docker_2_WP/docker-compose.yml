@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-   db2:
+   db:
      image: mysql
      volumes:
-       - db2_data:/var/lib/mysql
+       - db_data:/var/lib/mysql
      restart: always
      environment:
        MYSQL_ROOT_PASSWORD: somewordpress
@@ -17,16 +17,16 @@ services:
 
    wordpress:
      depends_on:
-       - db2
+       - db
      image: wordpress
      ports:
-       - "8000:80"
+       - "8008:80"
      restart: always
      environment:
-       WORDPRESS_db2_HOST: db2:3306
-       WORDPRESS_db2_USER: wordpress
-       WORDPRESS_db2_PASSWORD: wordpress
-       WORDPRESS_db2_NAME: wordpress
+       WORDPRESS_db_HOST: db:3306
+       WORDPRESS_db_USER: wordpress
+       WORDPRESS_db_PASSWORD: wordpress
+       WORDPRESS_db_NAME: wordpress
 volumes:
-    db2_data: {}
+    db_data: {}
 
