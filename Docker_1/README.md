@@ -6,7 +6,9 @@
 
 - [ ] [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
-   
+   ```bash
+   sudo apt install docker-compose
+   ```
  
 
 ## Étape 1 - Création des fichiers
