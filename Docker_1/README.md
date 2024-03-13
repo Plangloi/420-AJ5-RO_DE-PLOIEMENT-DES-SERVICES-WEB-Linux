@@ -85,8 +85,10 @@ EOF
 > Port :8010,9906,8088
 > Verifier que les port son disponible!
 > Vous pouvez utiliser :
+> 
 > ```
 netstat -tuln
+
 > ```
  sur Linux pour vérifier si un port est libre.
 
