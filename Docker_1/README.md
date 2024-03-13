@@ -6,8 +6,6 @@
 
 - [ ] [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
-- [ ] Connections a Internet
-
    
  
 
@@ -39,11 +37,11 @@ EOF
 
 #
 
-### Ajouter les commandes au fichier Docker-Compose :
+### Ajouter les commandes au fichier docker-Compose :
 
-```yml
+```bash
 
-cat > docker-compose.yml <<EOF
+cat > docker-compose.yaml <<EOF
 version: '3.8'
 
 
@@ -81,18 +79,21 @@ services:
           PMA_HOST: db
         depends_on:
           - db
+EOF
 ```
 > [!CAUTION]
 > Port :8010,9906,8088
 > Verifier que les port son disponible!
-
+> Vous pouvez utiliser ```bash netstat -tuln``` sur Linux pour vérifier si un port est libre.
 
 
 ### Ajouter les commandes au fichier index.php :
 
 
-```php
-echo "
+```bash
+
+echo > index.php <<EOF
+
 <?php
 $msg="";
     if(isset($_GET['reg']))
@@ -273,6 +274,4 @@ sudo docker-compose stop
 sudo docker-compose down
 
 ```
-
-
 
