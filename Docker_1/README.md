@@ -98,7 +98,7 @@ netstat -tuln
 
 ```bash
 
-echo > index.php <<EOF
+cat > index.php <<EOF
 
 <?php
 $msg="";
