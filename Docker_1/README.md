@@ -30,10 +30,11 @@ chmod 777 docker-compose.yaml index.php Dockerfile
 
 #
 ```bash
-cat "
+cat > Dockerfile <<EOF
 FROM php:8.0-apache 
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
-" >> Dockerfiles
+EOF
+
 ```
 
 #
