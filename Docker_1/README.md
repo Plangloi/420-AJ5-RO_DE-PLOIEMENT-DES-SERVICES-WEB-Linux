@@ -14,7 +14,7 @@
 
 
 
-   
+
 ## Étape 1 - Création des fichiers
 
 ```bash
@@ -294,10 +294,68 @@ cat docker-compose.yaml
 ```bash
 cat index.php
 ```
+
 ## Démarrage des Docker avec Docker-compose :
 ```bash
 sudo docker-compose up -d
 ```
+##  Création de la base de données:
+#### 1- Trouver le bon numéro pour le docker mysql
+```bash
+docker ps
+```
+ Tu devrais voir quelque chose comme ça!
+ ```diff
+ CONTAINER ID   IMAGE                             COMMAND                  CREATED          STATUS          PORTS                               NAMES
+df8546142fa5   docker_1-php-apache-environment   "docker-php-entrypoi…"   20 seconds ago   Up 19 seconds   0.0.0.0:8010->80/tcp                php-apache
+4d7739ba6845   phpmyadmin/phpmyadmin             "/docker-entrypoint.…"   20 seconds ago   Up 19 seconds   0.0.0.0:8088->80/tcp                docker_1-phpmyadmin-1
++3358a9d5a104   mysql                             "docker-entrypoint.s…"   20 seconds ago   Up 19 seconds   33060/tcp, 0.0.0.0:9906->3306/tcp   db
+```
+Donc pour moi :
+
+```bash
+docker exec -it 3358a9d5a104 bash
+```
+
+ **Tu devrais voir quelque chose comme ça!**
+
+```bash
+bash-4.4#
+```
+**Login dans base la données!:**
+
+```sql
+mysql -u root -p
+```
+**Passwd:**
+```
+MYSQL_ROOT_PASSWORD
+```
+ **Création de la base de données:**
+```
+create database employee;
+```
+```
+show databases;
+```
+```
+use employee;
+```
+```
+create table emp_info(emp_id int(11),emp_name varchar(50),emp_username varchar(50),emp_password varchar(50),emp_email varchar(50),emp_phone bigint(20)); 
+```
+```sql
+show tables;
+```
+emp_email varchar(50),emp_phone bigint(20)); 
+```
+```
+show tables;
+```
+```
+desc emp_info;
+```
+
 ## Stopper ou Détruire les Docker!
 
 ```bash
