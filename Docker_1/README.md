@@ -1,4 +1,4 @@
-# 1-Site web PHP avec Docker-Compose
+# 1- Déployer un site web PHP  Docker-Compose
 
 
 ### Prérequis:
@@ -43,6 +43,7 @@ EOF
 
 ```yml
 
+cat > docker-compose.yml <<EOF
 version: '3.8'
 
 
@@ -231,12 +232,14 @@ $msg="";
     </body>
 </html>
 
+EOF
 
 ```
 
 ### Verifier si le toute est bien dans les fichier :
 ```bash
-cat Docker
+
+cat Dockerfile
 
 ```
 ```bash
@@ -256,7 +259,7 @@ cat index.php
 sudo docker-compose up -d
 
 ```
-## Stopper ou Detruire les Docker!
+## Stopper ou Détruire les Docker!
 
 ```bash
 sudo docker-compose stop
