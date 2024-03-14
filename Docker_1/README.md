@@ -318,8 +318,9 @@ docker exec -it 3358a9d5a104 bash
 ```
 
  **Tu devrais voir quelque chose comme ça!**
+```console
 bash-4.4#
-
+```
 **Login dans base la données!:**
 
 ```sql
@@ -333,28 +334,32 @@ MYSQL_ROOT_PASSWORD
 ```
 create database employee;
 ```
+ Vérification de la création de "employee":
 ```sql
 show databases;
 ```
+Utiliser la base de données "employee":
 ```sql
 use employee;
 ```
+Création de la table de données "emp_info" :
 ```sql
 create table emp_info(emp_id int(11),emp_name varchar(50),emp_username varchar(50),emp_password varchar(50),emp_email varchar(50),emp_phone bigint(20)); 
 ```
+Vérification que la table était bien Sauvegarder :
 ```sql
 show tables;
 ```
 ```sql
 desc emp_info;
 ```
-## Vérification!!
+## Vérification!!🙀
 
 PhpMyAdmin : [localhost:8088
-](https://)
+](http://)
 
  Pages Web d'entrée de données : [localhost:8010
-](https://)  
+](http://)  
 
 User : root
 
