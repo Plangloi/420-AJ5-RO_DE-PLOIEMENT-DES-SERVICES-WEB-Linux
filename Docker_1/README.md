@@ -318,10 +318,8 @@ docker exec -it 3358a9d5a104 bash
 ```
 
  **Tu devrais voir quelque chose comme ça!**
-
-```bash
 bash-4.4#
-```
+
 **Login dans base la données!:**
 
 ```sql
@@ -335,36 +333,41 @@ MYSQL_ROOT_PASSWORD
 ```
 create database employee;
 ```
-```
+```sql
 show databases;
 ```
-```
+```sql
 use employee;
 ```
-```
+```sql
 create table emp_info(emp_id int(11),emp_name varchar(50),emp_username varchar(50),emp_password varchar(50),emp_email varchar(50),emp_phone bigint(20)); 
 ```
 ```sql
 show tables;
 ```
-emp_email varchar(50),emp_phone bigint(20)); 
-```
-```
-show tables;
-```
-```
+```sql
 desc emp_info;
 ```
+## Vérification!!
 
-## Stopper ou Détruire les Docker!
+PhpMyAdmin : [localhost:8088
+](https://)
 
+ Pages Web d'entrée de données : [localhost:8010
+](https://)  
+
+User : root
+
+Password :
+```
+ MYSQL_ROOT_PASSWORD
+```
+**Stopper :**  
 ```bash
 sudo docker-compose stop
 ```
-
-
-> [!WARNING]  
-> Va detruire tout les Docker!!
+🚨**Détruire les Docker**🚨😱
+> [!WARNING]
 ```bash
 sudo docker-compose down
 ```
