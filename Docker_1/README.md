@@ -356,10 +356,10 @@ desc emp_info;
 ## Vérification!!🙀
 
 PhpMyAdmin : [localhost:8088
-](http://)
+]()
 
  Pages Web d'entrée de données : [localhost:8010
-](http://)  
+]()  
 
 User : root
 
