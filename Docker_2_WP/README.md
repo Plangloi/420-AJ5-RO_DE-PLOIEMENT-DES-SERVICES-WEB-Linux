@@ -97,6 +97,7 @@ PhpMyAdmin : [localhost:8088
 😱 🚨 **Détruire les Docker** 🚨 😱
 ### Arrêtez et supprimez les conteneurs :
 > [!WARNING]
+> 
 
 ```bash
 docker-compose down
