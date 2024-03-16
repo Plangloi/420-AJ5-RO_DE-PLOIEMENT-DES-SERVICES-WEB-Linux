@@ -115,7 +115,8 @@ R : Ils sont juste arrêté et non suprimés.
 ```bash
 docker-compose up
 ```
-[+] Running 3/2
+
+> [+] Running 3/2
  ✔ Network docker_2_wp_default        Created
  ✔ Container docker_2_wp-db-1         Created
  ✔ Container docker_2_wp-wordpress-1  Created
@@ -123,11 +124,8 @@ docker-compose up
 <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 
-CGracefully stopping... (press Ctrl+C again to force)
+>CGracefully stopping... (press Ctrl+C again to force)
 Stopping 2/2
-
 Container docker_2_wp-wordpress-1  ==Stopped==
-
 Container docker_2_wp-db-1         ==Stopped==
-
 canceled
