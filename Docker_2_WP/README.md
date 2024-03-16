@@ -115,9 +115,9 @@ Running 3/3
 ```
 ---
 
-#### Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
+### Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
 
-**R : Ils sont juste arrêté et non suprimés.**
+#### R : Ils sont juste arrêté et non suprimés.**
 ```bash
 docker-compose up
 ```
