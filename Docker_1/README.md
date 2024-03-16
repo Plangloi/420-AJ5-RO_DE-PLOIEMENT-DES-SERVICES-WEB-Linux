@@ -1,8 +1,3 @@
-
-
-![alt text for screen readers](home/Users/ipatmbp4/Documents/Github/420-AJ5-RO_-Evaluation-Formative-1/Docker_1/Photos/Screenshot 2024-03-16 at 12.19.24 AM.png "Text to show on mouseover")
-
-
 # Partie 1 – Site web PHP avec Docker-Compose
 
 ### Prérequis:

@@ -93,7 +93,7 @@ Running 2/2
 
  ## 👨🏻‍💻 Vérification!! 👨🏻‍💻
 
-PhpMyAdmin : [localhost:8000
+Wordpress : [localhost:8000
 ](http://localhost:8000)
 
  ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Wp%20sc.png?raw=true)
@@ -115,7 +115,7 @@ Running 3/3
 ```
 ---
 
-***Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
+#### Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
 
 **R : Ils sont juste arrêté et non suprimés.**
 ```bash
