@@ -88,7 +88,7 @@ Running 2/2
 
  ## 👨🏻‍💻 Vérification!! 👨🏻‍💻
 
-PhpMyAdmin : [localhost:8088
+PhpMyAdmin : [localhost:8000
 ](http://localhost:8000)
 
  ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Wp%20sc.png?raw=true)
@@ -96,8 +96,6 @@ PhpMyAdmin : [localhost:8088
 
 😱 🚨 **Détruire les Docker** 🚨 😱
 ### Arrêtez et supprimez les conteneurs :
-> [!WARNING]
-> 
 
 ```bash
 docker-compose down
@@ -109,3 +107,24 @@ Running 3/3
 -Container docker_2_wp-db-1         Removed
 -Network docker_2_wp_default        Removed
 ```
+
+
+***Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
+
+R : Ils sont juste arrêté et non suprimés.
+```bash
+docker-compose up
+```
+[+] Running 3/2
+ ✔ Network docker_2_wp_default        Created
+ ✔ Container docker_2_wp-db-1         Created
+ ✔ Container docker_2_wp-wordpress-1  Created
+
+<kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+
+^CGracefully stopping... (press Ctrl+C again to force)
+[+] Stopping 2/2
+ ✔ Container docker_2_wp-wordpress-1  ==Stopped==
+ ✔ Container docker_2_wp-db-1         ==Stopped==
+canceled

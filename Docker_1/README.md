@@ -392,7 +392,7 @@ Password :
 sudo docker-compose stop
 ```
 😱 🚨 **Détruire les Docker** 🚨 😱
-> [!WARNING]
+
 ```bash
 sudo docker-compose down
 ```
