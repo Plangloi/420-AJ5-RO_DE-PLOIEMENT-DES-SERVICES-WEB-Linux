@@ -91,5 +91,20 @@ Running 2/2
 PhpMyAdmin : [localhost:8088
 ](http://localhost:8000)
 
- ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/phpMyAdmin.png?raw=true)
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Wp%20sc.png?raw=true)
+#
 
+😱 🚨 **Détruire les Docker** 🚨 😱
+### Arrêtez et supprimez les conteneurs :
+> [!WARNING]
+
+```bash
+docker-compose down
+```
+docker-compose down
+```diff
+Running 3/3
+-Container docker_2_wp-wordpress-1  Removed
+-Container docker_2_wp-db-1         Removed
+-Network docker_2_wp_default        Removed
+```
