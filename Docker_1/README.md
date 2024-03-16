@@ -293,6 +293,10 @@ cat index.php
 ```bash
 sudo docker-compose up -d
 ```
+[+] Running 3/3
+ ✔ Container db                     Running
+ ✔ Container docker_1-phpmyadmin-1  Running
+ ✔ Container php-apache             Running
 ##  Création de la base de données:
 #### 1- Trouver le bon numéro pour le docker mysql
 ```bash
@@ -371,3 +375,6 @@ sudo docker-compose stop
 sudo docker-compose down
 ```
 
+
+
+ `[[Docker_1/Photos|ALT TEXT]]`
