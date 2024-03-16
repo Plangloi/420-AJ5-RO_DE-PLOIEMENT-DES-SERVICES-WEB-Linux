@@ -380,4 +380,4 @@ sudo docker-compose down
  <!-- `[[https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Screenshot%202024-03-16%20at%2012.19.24%20AM.png|ALT TEXT]]`
  ![Alt text]() -->
 
-<img src="[image_url](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Screenshot%202024-03-16%20at%2012.19.24%20AM.png)" alt="Alt text" width="desired_width" height="desired_height">
+<img src="https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Screenshot%202024-03-16%20at%2012.19.24%20AM.png" alt="Alt text" width="desired_width" height="desired_height">
