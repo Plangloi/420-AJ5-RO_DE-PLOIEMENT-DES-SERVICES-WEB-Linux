@@ -7,7 +7,7 @@
 - [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
 
 
----
+
 
 ## Étape 1 - Création des fichiers
 
@@ -28,6 +28,7 @@ chmod +x docker-compose.yaml
 nano docker-compose.yaml
  ```
  Ensuite copier ceci :
+ ##### docker-compose.yaml
 
 ```sql
 version: '3.8'
