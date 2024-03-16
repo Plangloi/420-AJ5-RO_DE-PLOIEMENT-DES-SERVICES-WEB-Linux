@@ -62,6 +62,9 @@ nano docker-compose.yaml
  Ensuite copier ceci :
 
 
+
+
+
 ```yaml
 version: '3.8'
 
@@ -111,12 +114,12 @@ services:
 <kbd>Enter</kbd>  
 
 
+
+
 > [!CAUTION]
 > Port :8010,9906,8088
+
 > Verifier que les port son disponible!
-> Vous pouvez utiliser :
-
-
 
 
 
@@ -126,6 +129,9 @@ services:
 nano index.php
  ```
  Ensuite copier ceci :
+
+
+
 
 ```php
 
@@ -268,13 +274,17 @@ $msg="";
     </body>
 </html>
 ```
+
+
+
+
+
+
 <kbd>Ctrl</kbd> + <kbd>X</kbd>
 
 <kbd>Y</kbd>
 
 <kbd>Enter</kbd>
-
-
 
 
 
@@ -289,16 +299,22 @@ cat docker-compose.yaml
 cat index.php
 ```
 
+
+
 ## Démarrage des Docker avec Docker-compose :
 ```bash
 sudo docker-compose up -d
 ```
-[+] Running 3/3
+> [+] Running 3/3
  ✔ Container db                     Running
  ✔ Container docker_1-phpmyadmin-1  Running
  ✔ Container php-apache             Running
 ##  Création de la base de données:
-#### 1- Trouver le bon numéro pour le docker mysql
+
+
+
+#### 1- Trouver le docker mysql pour accéder au bash:
+
 ```bash
 docker ps
 ```
