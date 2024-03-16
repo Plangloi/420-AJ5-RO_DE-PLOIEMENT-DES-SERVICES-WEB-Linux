@@ -377,4 +377,4 @@ sudo docker-compose down
 
 
 
- `[[Docker_1/Photos|ALT TEXT]]`
+ `[[Docker_1/Photos/Screenshot 2024-03-16 at 12.19.24 AM.png|ALT TEXT]]`
