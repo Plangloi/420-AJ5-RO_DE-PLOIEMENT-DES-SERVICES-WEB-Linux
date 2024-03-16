@@ -129,3 +129,16 @@ Stopping 2/2
 Container docker_2_wp-wordpress-1  ==Stopped==
 Container docker_2_wp-db-1         ==Stopped==
 canceled
+```bash
+docker ps
+```
+```diff
+CONTAINER ID   IMAGE                             COMMAND                  CREATED        STATUS                      PORTS     NAMES
++0faa602d8b4f   wordpress:latest                  "docker-entrypoint.s…"   4 hours ago    Exited (0) 6 minutes ago              docker_2_wp-wordpress-1
++b84648d1af8a   mysql                             "docker-entrypoint.s…"   4 hours ago    Exited (0) 5 minutes ago              docker_2_wp-db-1
+ef4562bbb2a6   ghcr.io/requarks/wiki:2           "docker-entrypoint.s…"   17 hours ago   Exited (0) 13 hours ago               docker_3_wiki-wiki-1
+cd79f2de8550   postgres                          "docker-entrypoint.s…"   17 hours ago   Exited (0) 13 hours ago               docker_3_wiki-db-1
+df8546142fa5   docker_1-php-apache-environment   "docker-php-entrypoi…"   3 days ago     Exited (0) 53 minutes ago             php-apache
+4d7739ba6845   phpmyadmin/phpmyadmin             "/docker-entrypoint.…"   3 days ago     Exited (0) 10 minutes ago             docker_1-phpmyadmin-1
+3358a9d5a104   mysql                             "docker-entrypoint.s…"   3 days ago     Exited (0) 10 minutes ago             db
+```
