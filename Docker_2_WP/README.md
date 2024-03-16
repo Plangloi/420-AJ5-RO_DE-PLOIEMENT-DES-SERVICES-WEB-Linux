@@ -7,7 +7,7 @@
 - [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
 
 
-
+---
 
 ## Étape 1 - Création des fichiers
 
@@ -20,6 +20,7 @@ touch docker-compose.yaml
 ```bash
 chmod +x docker-compose.yaml
 ```
+
 
 ### Ajouter le code au fichier docker-compose.yaml :
 
@@ -69,11 +70,13 @@ volumes:
 
 > Verifier que le port est disponible!
 
-
 ### Verifier si le fichier :
 ```bash
 cat docker-compose.yaml
 ```
+
+---
+
 
 ## Démarrage des Docker avec Docker-compose :
 ```bash
@@ -86,6 +89,8 @@ Running 2/2
 +Container docker_2_wp-wordpress-1  Started
  ```
 
+ ---
+
  ## 👨🏻‍💻 Vérification!! 👨🏻‍💻
 
 PhpMyAdmin : [localhost:8000
@@ -93,44 +98,46 @@ PhpMyAdmin : [localhost:8000
 
  ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Wp%20sc.png?raw=true)
 #
-
+---
 😱 🚨 **Détruire les Docker** 🚨 😱
+
+---
 ### Arrêtez et supprimez les conteneurs :
 
 ```bash
 docker-compose down
 ```
-docker-compose down
 ```diff
 Running 3/3
 -Container docker_2_wp-wordpress-1  Removed
 -Container docker_2_wp-db-1         Removed
 -Network docker_2_wp_default        Removed
 ```
-
+---
 
 ***Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
 
-R : Ils sont juste arrêté et non suprimés.
+**R : Ils sont juste arrêté et non suprimés.**
 ```bash
 docker-compose up
 ```
-
-> [+] Running 3/2
- ✔ Network docker_2_wp_default        Created
- ✔ Container docker_2_wp-db-1         Created
- ✔ Container docker_2_wp-wordpress-1  Created
-
+```diff
+[+] Running 3/2
++ ✔ Network docker_2_wp_default        Created
++ ✔ Container docker_2_wp-db-1         Created
++ ✔ Container docker_2_wp-wordpress-1  Created
+```
 <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
-
->CGracefully stopping... (press Ctrl+C again to force)
+```diff
+CGracefully stopping... (press Ctrl+C again to force)
 Stopping 2/2
-Container docker_2_wp-wordpress-1  ==Stopped==
-Container docker_2_wp-db-1         ==Stopped==
+-Container docker_2_wp-wordpress-1  Stopped
+-Container docker_2_wp-db-1         Stopped
 canceled
+```
 ```bash
-docker ps
+docker ps -a
 ```
 ```diff
 CONTAINER ID   IMAGE                             COMMAND                  CREATED        STATUS                      PORTS     NAMES
@@ -142,3 +149,4 @@ df8546142fa5   docker_1-php-apache-environment   "docker-php-entrypoi…"   3 da
 4d7739ba6845   phpmyadmin/phpmyadmin             "/docker-entrypoint.…"   3 days ago     Exited (0) 10 minutes ago             docker_1-phpmyadmin-1
 3358a9d5a104   mysql                             "docker-entrypoint.s…"   3 days ago     Exited (0) 10 minutes ago             db
 ```
+---
