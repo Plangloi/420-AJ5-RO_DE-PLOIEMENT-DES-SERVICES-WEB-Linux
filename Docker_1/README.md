@@ -1,16 +1,15 @@
-# 1- Déployer un site web PHP  Docker-Compose
 
+
+![alt text for screen readers](home/Users/ipatmbp4/Documents/Github/420-AJ5-RO_-Evaluation-Formative-1/Docker_1/Photos/Screenshot 2024-03-16 at 12.19.24 AM.png "Text to show on mouseover")
+
+
+# Partie 1 – Site web PHP avec Docker-Compose
 
 ### Prérequis:
-## Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.
+### Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.
 
 - [ ] [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
-   ```bash
-   sudo apt install docker-compose
-   ```
-
-
 
 
 
@@ -38,7 +37,7 @@ chmod 777 docker-compose.yaml index.php Dockerfile
 
 
 
-## Etape 2 - Ajouter les commandes au fichier Dockerfile :
+### Etape 2 - Ajouter le code au fichier Dockerfile :
 
 ```bash 
 nano Dokerfile
@@ -55,7 +54,7 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
 <kbd>Enter</kbd>
 
-### Ajouter les commandes au fichier docker-compose.yaml :
+### Ajouter le code au fichier docker-compose.yaml :
 
 ```bash 
 nano docker-compose.yaml
@@ -64,7 +63,6 @@ nano docker-compose.yaml
 
 
 ```yaml
-
 version: '3.8'
 
 
@@ -101,7 +99,7 @@ services:
         environment:
           PMA_HOST: db
         depends_on:
-          - db
+          - db  
 ```
 
 
@@ -118,19 +116,12 @@ services:
 > Verifier que les port son disponible!
 > Vous pouvez utiliser :
 
-Linux pour vérifier si un port est libre.
-
-```bash
-netstat -tuln
-```
 
 
 
 
 
-
-
-### Ajouter les commandes au fichier index.php :
+### Ajouter le code au fichier index.php :
 ```bash
 nano index.php
  ```
@@ -287,7 +278,7 @@ $msg="";
 
 
 
-### Verifier si le toute est bien dans les fichier :
+### Verifier si les fichier :
 ```bash
 cat Dockerfile
 ```
@@ -324,7 +315,7 @@ docker exec -it 3358a9d5a104 bash
 ```console
 bash-4.4#
 ```
-**Login dans base la données!:**
+**Login dans base la données:**
 
 ```sql
 mysql -u root -p
@@ -334,7 +325,7 @@ mysql -u root -p
 MYSQL_ROOT_PASSWORD
 ```
  **Création de la base de données:**
-```
+```sql
 create database employee;
 ```
  Vérification de la création de "employee":
@@ -356,7 +347,7 @@ show tables;
 ```sql
 desc emp_info;
 ```
-## Vérification!!🙀
+## 🙀 Vérification!! 🙀
 
 PhpMyAdmin : [localhost:8088
 ](http://localhost:8088)
@@ -370,11 +361,11 @@ Password :
 ```
  MYSQL_ROOT_PASSWORD
 ```
-**Stopper :**  
+**Pour Stopper les docker:**  
 ```bash
 sudo docker-compose stop
 ```
-🚨**Détruire les Docker**🚨😱
+😱 🚨 **Détruire les Docker** 🚨 😱
 > [!WARNING]
 ```bash
 sudo docker-compose down
