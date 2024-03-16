@@ -123,8 +123,11 @@ docker-compose up
 <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 
-^CGracefully stopping... (press Ctrl+C again to force)
+CGracefully stopping... (press Ctrl+C again to force)
 Stopping 2/2
- Container docker_2_wp-wordpress-1  ==Stopped==
-  Container docker_2_wp-db-1         ==Stopped==
-  canceled
+
+Container docker_2_wp-wordpress-1  ==Stopped==
+
+Container docker_2_wp-db-1         ==Stopped==
+
+canceled
