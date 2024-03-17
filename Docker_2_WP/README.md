@@ -1,5 +1,5 @@
- ![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png" alt="Alt text" width="200">
 
 # Wordpress avec Docker-Compose
 
