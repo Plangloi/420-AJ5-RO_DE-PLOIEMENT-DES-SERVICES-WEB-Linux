@@ -27,8 +27,8 @@ chmod +x docker-compose.yaml
 ```bash 
 nano docker-compose.yaml
  ```
- Ensuite copier ceci :
- ##### docker-compose.yaml
+ #### Copier/coller ceci :
+ #### docker-compose.yaml
 
 ```sql
 version: '3.8'
