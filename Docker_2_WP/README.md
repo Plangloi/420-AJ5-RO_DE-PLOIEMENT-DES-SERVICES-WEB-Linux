@@ -23,12 +23,12 @@ chmod +x docker-compose.yaml
 ```
 
 
-**Ajouter le code au fichier ***docker-compose***.yaml**
+- **Ajouter le code au fichier docker-compose.yaml**
 
 ```bash 
 nano docker-compose.yaml
  ```
- ***Copier/coller ceci :***
+ - ***Copier/coller ceci :***
  ***docker-compose.yaml***
 
 ```sql
@@ -70,7 +70,7 @@ volumes:
 > [!CAUTION]
 > Port : 8000
 
-**Verifier le fichier ***docker-compose***.yaml :**
+  **Verifier le fichier ***docker-compose***.yaml :**
 ```bash
 cat docker-compose.yaml
 ```
@@ -90,7 +90,7 @@ Running 2/2 👍
 
  ---
 
- ***Vérification!***
+ **Vérification!**
 
 Wordpress : [localhost:8000
 ](http://localhost:8000)
@@ -100,9 +100,9 @@ Wordpress : [localhost:8000
 > Ca marche!!!🤘🏻 
 
 ---
-😱 🚨 **Détruire les Docker** 🚨 😱
+#### 😱 🚨 **Détruire les Docker** 🚨 😱
 
-### Arrêtez et supprimez les Docker :
+**Arrêtez et supprimez les Docker :**
 
 ```bash
 docker-compose down
@@ -115,9 +115,9 @@ Running 3/3
 ```
 ---
 
-#### Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
+***Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
 
-#### ***R : Ils sont juste arrêté et non suprimés.***
+**R : Ils sont juste arrêté et non suprimés.**
 ```bash
 docker-compose up
 ```
@@ -130,7 +130,7 @@ docker-compose up
 <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 ```diff
-CGracefully stopping... (press Ctrl+C again to force)
+Gracefully stopping... (press Ctrl+C again to force)
 Stopping 2/2
 -Container docker_2_wp-wordpress-1  Stopped
 -Container docker_2_wp-db-1         Stopped
