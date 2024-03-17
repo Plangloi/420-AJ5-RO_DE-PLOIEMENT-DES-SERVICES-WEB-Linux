@@ -1,3 +1,6 @@
+ ![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png)
+
+
 # Wordpress avec Docker-Compose
 
 > ***Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.***
