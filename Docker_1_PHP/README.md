@@ -306,11 +306,12 @@ cat index.php
 ```bash
 sudo docker-compose up -d
 ```
-> [+] Running 3/3
- ✔ Container db                     Running
- ✔ Container docker_1-phpmyadmin-1  Running
- ✔ Container php-apache             Running
-
+```diff
+[+] Running 3/3
++ ✔ Container db                     Running
++ ✔ Container docker_1-phpmyadmin-1  Running
++ ✔ Container php-apache             Running
+```
 ---
 ###  Création de la base de données:
 
