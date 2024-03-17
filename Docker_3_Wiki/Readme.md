@@ -121,7 +121,7 @@ docker-compose down
 
 ***Q : Vérifiez la persistance des données et les volumes pour les bases de données dans les parties précédentes***
 
-**R : Ils sont suprimés.**
+**R : Ils sont persistance.**
 
 ```bash
 docker-compose up
@@ -132,7 +132,7 @@ docker-compose up
 + ✔ Container docker_3_wiki-wiki-1  Started
 ```
  ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/wiki%20lost.png?raw=true)
-> Les données ne sont pas persistance !😞
+> Les données ne sont persistance !
 
 
 ---
