@@ -10,7 +10,7 @@ Prérequis:
 
 ---
 
-#### Étape 1 - Création des fichiers :
+### Étape 1 - Création des fichiers :
 
 ```bash
 mkdir Docker_wp && cd Docker_wp
