@@ -1,4 +1,4 @@
- ![Alt text](https://js.wiki/img/wikijs-full-2021.b840e376.svg)
+<img src="https://js.wiki/img/wikijs-full-2021.b840e376.svg" alt="Alt text" width="200">
 
 
 #  Wiki.js avec Docker-Compose
