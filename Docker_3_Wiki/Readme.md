@@ -1,3 +1,6 @@
+ ![Alt text](https://js.wiki/img/wikijs-full-2021.b840e376.svg)
+
+
 #  Wiki.js avec Docker-Compose
 
 > ***Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.***
