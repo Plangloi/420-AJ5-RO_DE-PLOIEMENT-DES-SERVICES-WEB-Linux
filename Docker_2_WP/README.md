@@ -1,15 +1,16 @@
 # Wordpress avec Docker-Compose
 
-### Prérequis:
-### Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.
+> ***Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.***
 
-- [ ] [Docker](https://docs.docker.com/engine/install/ubuntu/)
-- [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
+Prérequis:
+
+- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
 
 
 
 
-## Étape 1 - Création des fichiers
+#### Étape 1 - Création des fichiers :
 
 ```bash
 mkdir Docker_wp && cd Docker_wp
@@ -22,13 +23,13 @@ chmod +x docker-compose.yaml
 ```
 
 
-### Ajouter le code au fichier docker-compose.yaml :
+**Ajouter le code au fichier ***docker-compose***.yaml**
 
 ```bash 
 nano docker-compose.yaml
  ```
- #### Copier/coller ceci :
- #### docker-compose.yaml
+ ***Copier/coller ceci :***
+ ***docker-compose.yaml***
 
 ```sql
 version: '3.8'
@@ -69,9 +70,7 @@ volumes:
 > [!CAUTION]
 > Port : 8000
 
-> Verifier que le port est disponible!
-
-### Verifier si le fichier :
+**Verifier le fichier ***docker-compose***.yaml :**
 ```bash
 cat docker-compose.yaml
 ```
@@ -79,31 +78,31 @@ cat docker-compose.yaml
 ---
 
 
-## Démarrage des Docker avec Docker-compose :
+#### Étape 2 - Démarrage des Docker avec Docker-compose :
 ```bash
 sudo docker-compose up -d
 ```
-docker-compose up -d
 ```diff
-Running 2/2
+Running 2/2 👍
 +Container docker_2_wp-db-1         Started
 +Container docker_2_wp-wordpress-1  Started
  ```
 
  ---
 
- ## 👨🏻‍💻 Vérification!! 👨🏻‍💻
+ ***Vérification!***
 
 Wordpress : [localhost:8000
 ](http://localhost:8000)
 
+
  ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Wp%20sc.png?raw=true)
-#
+> Ca marche!!!🤘🏻 
+
 ---
 😱 🚨 **Détruire les Docker** 🚨 😱
 
----
-### Arrêtez et supprimez les conteneurs :
+### Arrêtez et supprimez les Docker :
 
 ```bash
 docker-compose down
@@ -116,9 +115,9 @@ Running 3/3
 ```
 ---
 
-### Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
+#### Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
 
-#### R : Ils sont juste arrêté et non suprimés.**
+#### ***R : Ils sont juste arrêté et non suprimés.***
 ```bash
 docker-compose up
 ```
