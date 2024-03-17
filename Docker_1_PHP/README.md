@@ -376,13 +376,13 @@ desc emp_info;
 PhpMyAdmin : [localhost:8088
 ](http://localhost:8088)
 
- ![Alt text](/Users/ipatmbp4/Documents/Github/420-AJ5-RO_-Evaluation-Formative-1/Photos/phpMyAdmin.png)
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Photos/phpMyAdmin.png?raw=true)
 
 
  Pages Web d'entrée de données : [localhost:8010
 ](http://localhost:8010)
 
-  ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/data_in.png?raw=true)
+  ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Photos/data_in.png?raw=true)
 
 
 User : root
