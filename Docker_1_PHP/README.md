@@ -376,7 +376,7 @@ desc emp_info;
 PhpMyAdmin : [localhost:8088
 ](http://localhost:8088)
 
- ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/phpMyAdmin.png?raw=true)
+ ![Alt text](/Users/ipatmbp4/Documents/Github/420-AJ5-RO_-Evaluation-Formative-1/Photos/phpMyAdmin.png)
 
 
  Pages Web d'entrée de données : [localhost:8010
