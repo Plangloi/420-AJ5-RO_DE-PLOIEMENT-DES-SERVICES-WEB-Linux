@@ -98,7 +98,7 @@ Wordpress : [localhost:3000
 ](http://localhost:3000)
 
 
- ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/wiki.png?raw=true)
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/wiki%20at%209.51.09%20PM.png?raw=true)
 > Ca marche Wiki!!!🤘🏻 
 
 ---
