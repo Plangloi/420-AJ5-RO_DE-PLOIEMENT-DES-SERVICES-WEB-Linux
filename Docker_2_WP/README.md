@@ -4,11 +4,11 @@
 
 Prérequis:
 
-- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+- [Docker](https://docs.docker.com/engine/install/)
 - [Docker-Compose](https://docs.docker.com/compose/install/)
 
 
-
+---
 
 #### Étape 1 - Création des fichiers :
 
@@ -78,7 +78,7 @@ cat docker-compose.yaml
 ---
 
 
-#### Étape 2 - Démarrage des Docker avec Docker-compose :
+### Étape 2 - Démarrage des Docker avec Docker-compose :
 ```bash
 sudo docker-compose up -d
 ```
@@ -90,7 +90,7 @@ Running 2/2 👍
 
  ---
 
- **Vérification!**
+ ### Vérification!
 
 Wordpress : [localhost:8000
 ](http://localhost:8000)
