@@ -5,12 +5,15 @@
 
 # Partie 1 – Site web PHP avec Docker-Compose
 
-### Prérequis:
-### Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.
+> ***Avant de commencer, assurez-vous d'avoir installé Docker et Docker-Compose sur votre système.***
 
-- [ ] [Docker](https://docs.docker.com/engine/install/ubuntu/)
-- [ ] [Docker-Compose](https://docs.docker.com/compose/install/)
+Prérequis:
 
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
+
+
+---
 
 
 
@@ -35,8 +38,6 @@ chmod 777 docker-compose.yaml index.php Dockerfile
 
 
 
-
-
 ### Etape 2 - Ajouter le code au fichier Dockerfile :
 
 ```bash 
@@ -54,17 +55,17 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
 <kbd>Enter</kbd>
 
-### Ajouter le code au fichier docker-compose.yaml :
+- **Ajouter le code au fichier docker-compose.yaml**
 
 ```bash 
 nano docker-compose.yaml
  ```
- Ensuite copier ceci :
+ - ***Copier/coller ceci :***
 
 
 
 
-
+***docker-compose.yaml***
 ```yaml
 version: '3.8'
 
@@ -124,15 +125,15 @@ services:
 
 
 
-### Ajouter le code au fichier index.php :
+***Ajouter le code au fichier index.php :***
 ```bash
 nano index.php
  ```
- Ensuite copier ceci :
+ - ***Copier/coller ceci :***
 
 
 
-
+***index.php***
 ```php
 
 <?php
@@ -288,7 +289,7 @@ $msg="";
 
 
 
-### Verifier si les fichier :
+  **Verifier le fichier :**
 ```bash
 cat Dockerfile
 ```
@@ -301,7 +302,7 @@ cat index.php
 
 
 
-## Démarrage des Docker avec Docker-compose :
+### Démarrage des Docker avec Docker-compose :
 ```bash
 sudo docker-compose up -d
 ```
@@ -309,7 +310,9 @@ sudo docker-compose up -d
  ✔ Container db                     Running
  ✔ Container docker_1-phpmyadmin-1  Running
  ✔ Container php-apache             Running
-##  Création de la base de données:
+
+---
+###  Création de la base de données:
 
 
 
@@ -331,24 +334,24 @@ Donc pour moi :
 docker exec -it 3358a9d5a104 bash
 ```
 
- **Tu devrais voir quelque chose comme ça!**
 ```console
 bash-4.4#
 ```
-**Login dans base la données:**
+ > Ont devrais voir quelque chose comme ça!
+
+Login dans base la données :
 
 ```sql
 mysql -u root -p
 ```
-**Passwd:**
-```
-MYSQL_ROOT_PASSWORD
-```
- **Création de la base de données:**
+>Password: MYSQL_ROOT_PASSWORD
+
+
+Création de la base de données :
 ```sql
 create database employee;
 ```
- Vérification de la création de "employee":
+Vérification de la création de "employee":
 ```sql
 show databases;
 ```
@@ -367,6 +370,7 @@ show tables;
 ```sql
 desc emp_info;
 ```
+---
 ## 🙀 Vérification!! 🙀
 
 PhpMyAdmin : [localhost:8088
