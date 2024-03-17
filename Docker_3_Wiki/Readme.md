@@ -101,7 +101,7 @@ Wordpress : [localhost:3000
 ](http://localhost:3000)
 
 
- ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/wiki.png?raw=true)
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Photos/wiki.png?raw=true)
 > Ca marche Wiki!!!🤘🏻 
 
 ---
@@ -134,7 +134,7 @@ docker-compose up
 + ✔ Container docker_3_wiki-db-1    Started
 + ✔ Container docker_3_wiki-wiki-1  Started
 ```
- ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/wiki%20okat%2010.22.02%20PM.png?raw=true)
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Photos/wiki%20at%209.51.09%20PM.png?raw=true)
 > Les données sont persistance !
 
 

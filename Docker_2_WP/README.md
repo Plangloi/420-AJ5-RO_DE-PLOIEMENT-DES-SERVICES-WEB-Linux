@@ -99,7 +99,7 @@ Wordpress : [localhost:8000
 ](http://localhost:8000)
 
 
- ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Wp%20sc.png?raw=true)
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Photos/Wp%20sc.png?raw=true)
 > Ca marche!!!🤘🏻 
 
 ---

@@ -385,12 +385,9 @@ PhpMyAdmin : [localhost:8088
   ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Photos/data_in.png?raw=true)
 
 
-User : root
+> User : root
+> Password : MYSQL_ROOT_PASSWORD
 
-Password :
-```
- MYSQL_ROOT_PASSWORD
-```
 **Pour Stopper les docker:**  
 ```bash
 sudo docker-compose stop
