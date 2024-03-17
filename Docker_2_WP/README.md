@@ -100,7 +100,7 @@ Wordpress : [localhost:8000
 > Ca marche!!!🤘🏻 
 
 ---
-#### 😱 🚨 **Détruire les Docker** 🚨 😱
+### 😱 🚨 **Détruire les Docker** 🚨 😱
 
 **Arrêtez et supprimez les Docker :**
 
