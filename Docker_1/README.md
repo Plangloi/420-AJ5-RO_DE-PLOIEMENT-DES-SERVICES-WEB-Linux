@@ -1,5 +1,6 @@
+
 <img src="https://www.php.net/images/logos/php-logo-white.svg
-" alt="Alt text" width="200">
+" alt="Alt text" width="150">
 
 
 
