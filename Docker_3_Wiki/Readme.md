@@ -92,16 +92,14 @@ sudo docker-compose up -d
 + ✔ Container docker_3_wiki-wiki-1  Started
  ```
 
- ---
-
  ### Vérification!
 
 Wordpress : [localhost:3000
 ](http://localhost:3000)
 
 
- ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/Wp%20sc.png?raw=true)
-> Ca marche!!!🤘🏻 
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/wiki.png?raw=true)
+> Ca marche Wiki!!!🤘🏻 
 
 ---
 ### 😱 🚨 **Détruire les Docker** 🚨 😱
@@ -112,45 +110,29 @@ Wordpress : [localhost:3000
 docker-compose down
 ```
 ```diff
-Running 3/3
--Container docker_2_wp-wordpress-1  Removed
--Container docker_2_wp-db-1         Removed
--Network docker_2_wp_default        Removed
+docker-compose down
+
+[+] Running 3/2
+- ✔ Container docker_3_wiki-wiki-1  Removed
+- ✔ Container docker_3_wiki-db-1    Removed
+- ✔ Network docker_3_wiki_default   Removed
 ```
 ---
 
-***Q : Après avoir exécuté docker-compose up, utilisez CTRL+C suivi de docker ps -a Est-ce que les conteneurs sont stoppés ou supprimés ?***
+***Q : Vérifiez la persistance des données et les volumes pour les bases de données dans les parties précédentes***
 
-**R : Ils sont juste arrêté et non suprimés.**
+**R : Ils sont suprimés.**
+
 ```bash
 docker-compose up
 ```
 ```diff
-[+] Running 3/2
-+ ✔ Network docker_2_wp_default        Created
-+ ✔ Container docker_2_wp-db-1         Created
-+ ✔ Container docker_2_wp-wordpress-1  Created
+[+] Running 2/2
++ ✔ Container docker_3_wiki-db-1    Started
++ ✔ Container docker_3_wiki-wiki-1  Started
 ```
-<kbd>Ctrl</kbd> + <kbd>C</kbd>
+ ![Alt text](https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/blob/main/Docker_1/Photos/wiki.png?raw=true)
+> Les données ne sont pas persistance !😞
 
-```diff
-Gracefully stopping... (press Ctrl+C again to force)
-Stopping 2/2
--Container docker_2_wp-wordpress-1  Stopped
--Container docker_2_wp-db-1         Stopped
-canceled
-```
-```bash
-docker ps -a
-```
-```diff
-CONTAINER ID   IMAGE                             COMMAND                  CREATED        STATUS                      PORTS     NAMES
-+0faa602d8b4f   wordpress:latest                  "docker-entrypoint.s…"   4 hours ago    Exited (0) 6 minutes ago              docker_2_wp-wordpress-1
-+b84648d1af8a   mysql                             "docker-entrypoint.s…"   4 hours ago    Exited (0) 5 minutes ago              docker_2_wp-db-1
-ef4562bbb2a6   ghcr.io/requarks/wiki:2           "docker-entrypoint.s…"   17 hours ago   Exited (0) 13 hours ago               docker_3_wiki-wiki-1
-cd79f2de8550   postgres                          "docker-entrypoint.s…"   17 hours ago   Exited (0) 13 hours ago               docker_3_wiki-db-1
-df8546142fa5   docker_1-php-apache-environment   "docker-php-entrypoi…"   3 days ago     Exited (0) 53 minutes ago             php-apache
-4d7739ba6845   phpmyadmin/phpmyadmin             "/docker-entrypoint.…"   3 days ago     Exited (0) 10 minutes ago             docker_1-phpmyadmin-1
-3358a9d5a104   mysql                             "docker-entrypoint.s…"   3 days ago     Exited (0) 10 minutes ago             db
-```
+
 ---
