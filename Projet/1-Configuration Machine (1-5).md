@@ -1,7 +1,10 @@
 ## Configuration Serveur Ubuntu (192.168.2.10):
 
 Ubuntu Server neofetch et ping" src="https://github.com/Plangloi/420-AJ5
-![Image](../Photos/)
+#![Image](../Photos/)
+<img width="300" alt="Ubuntu Server neofetch et ping" src="https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/assets/48372629/54c84768-80de-43d1-b219-6eccded364be">
+Comment
+
 
 >Ubuntu Server Neofetch et ip a
 	
