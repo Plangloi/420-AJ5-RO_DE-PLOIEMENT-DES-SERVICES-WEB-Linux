@@ -105,7 +105,7 @@ ssh ipat@192.168.2.12
 
 **Unbuntu Server :**
 
-<img width="500" alt="Ping server" src="https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/assets/48372629/6012a086-c115-4181-b619-7b79ee57f21f">
+<img width="2158" alt="Ping server" src="https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/assets/48372629/6012a086-c115-4181-b619-7b79ee57f21f">
 
 
 >Ping test de Ubuntu Server a Windows 11 (192.168.2.11) et Ubuntu Desktop (192.168.2.12)
