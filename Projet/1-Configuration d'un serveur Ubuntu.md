@@ -33,7 +33,7 @@ network:
 <kbd>Enter</kbd>
 
 ***Configuration dans Parallels Desktop :***
-![[/Photos/Paralllels Destop Network.png]]
+![[/Projet/Photos/win11 ip.png]]
 >Note : Mon network a la maison et dans 192.168.2.0/24 donc je peux utiliser en mode "bridge"
 
 ![[Paralllels Destop Network.png]]
