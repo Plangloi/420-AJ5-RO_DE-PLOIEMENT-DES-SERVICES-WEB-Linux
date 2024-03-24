@@ -33,8 +33,10 @@ network:
 <kbd>Enter</kbd>
 
 ***Configuration dans Parallels Desktop :***
+
 ![[/Projet/Photos/win11 ip.png]]
 >Note : Mon network a la maison et dans 192.168.2.0/24 donc je peux utiliser en mode "bridge"
+<img width="971" alt="Network setup in desktop" src="https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/assets/48372629/37e11184-5952-4d07-9554-7f8d06c3027d">
 
 ![[Paralllels Destop Network.png]]
 >Network setup de Parallels Desktop connecté avec Host
