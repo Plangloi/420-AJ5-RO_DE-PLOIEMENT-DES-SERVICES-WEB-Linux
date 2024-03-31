@@ -56,7 +56,7 @@ smtp    IN      A       192.168.2.10
 >Copy / Past ctrl+X....y....enter
 
 ```bash
-root@ubuntu:/home/eleve# service bindg restart
+service bindg restart
 ```
 ```bash
 service binde status 
@@ -78,6 +78,7 @@ named-checkcont /etc/bind/named.conf
 ```bash
 /home/eleve# named-checkzone ns. local /etc/bind/db.ns. local
 ```
+### install resolvconf :
 
 ```bash
 apt install resolvconf
