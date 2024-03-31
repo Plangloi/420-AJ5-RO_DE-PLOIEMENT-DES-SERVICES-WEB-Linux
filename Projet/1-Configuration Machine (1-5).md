@@ -110,6 +110,12 @@ ssh ipat@192.168.2.12
 
 >Ping test de Ubuntu Server a Windows 11 (192.168.2.11) et Ubuntu Desktop (192.168.2.12)
 
+![Ping test google Ubuntu Server](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/5a114b84-3902-4c4b-a869-3430505e860d)
+
+>Ping test to Google 8.8.8.8
+
+
+
 **Windows 11 :**
 
 <img width="2158" alt="win11 ping test" src="https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/assets/48372629/19f46ebb-62e7-4c63-a3d4-ca786725c4ea">
@@ -117,11 +123,21 @@ ssh ipat@192.168.2.12
 
 >Ping test du Windows 11 au Ubuntu Server(192.168.2.10) et Ubuntu Desktop (192.168.2.12)
 
+
+![Ping google Win11](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/00a7dda7-a277-4cce-b064-2f821c2f06fe)
+
+>Ping test to Google 8.8.8.8
+
+
 **Ubuntu Desktop:**
 
 <img width="2158" alt="ping test Ubuntu Desktop" src="https://github.com/Plangloi/420-AJ5-RO_-Evaluation-Formative-1/assets/48372629/247cc0db-3b08-4b21-8484-589f564fb080">
 
 
 >Ping test du Ubuntu Desktop au Unbuntu Server (192.168.2.10) et au Pc Win11 (192.168.2.11)
+
+![Ping google Ubuntu Desktop](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/a946b4fc-3703-4313-be0e-4e87b1b1f978)
+
+>Ping test to Google 8.8.8.8
 
 ---
