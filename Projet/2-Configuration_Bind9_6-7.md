@@ -71,15 +71,6 @@ service binde status
 nano /etc/resolvconf/resolv.conf.d/head
 ```
 
-
-
-
-
-
-
-
-
-
 ```bash
 named-checkcont /etc/bind/named.conf
 ```
@@ -174,14 +165,33 @@ ff02::2 ip6-allrouters
 
 ![desktop etc_hosts](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/fd0fa5ec-b6eb-40fd-961b-7a9a57fe9b56)
 
+
+
 ```bash
 ping ns.local
 ```
 
+
 <img width="934" alt="Desktop Ubuntu ping nslocal" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/612cf641-d835-4f94-9688-db2f8573f6a8">
 
 
+```bash
+nano /etc/resolv.conf
+```
 
+```bash
+nameserver 192.168.2.10
+nameserver 8.8.8.8
+search ns.local
+```
+>Copy / Past ctrl+X....y....enter
+
+![desktop resov_conf](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/873b01dd-46a0-4eca-ac29-58ea0890e1ad)
+
+```bash
+ping smpt.ns.local
+```
+![desktop ping smpt ns local](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/540e0b62-0edc-4945-b3af-f2fcb65b6c89)
 
 
 
