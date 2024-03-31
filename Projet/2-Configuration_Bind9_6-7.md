@@ -1,7 +1,93 @@
 ## Configuration Bind9 sur Ubuntu Server (192.168.2.10):
 
----
+# Install Bind9
+
+```bash
+apt install bind9
+```
+
+## Configuration des fichier :
+
+
+```bash
+nano /etc/bind/named.conf.local
+```
+
+```bash
+zone "ns.local" {
+                        type master;
+                        file "/etc/bind/db.ns.local";
+};
+
+```
+>Copy / Past ctrl+X....y....enter
+
+### db.ns.local
+```bash
+cp /etc/bind/db.local /etc/bind/db.ns.local
+```
+
+
+```bash
+nano /etc/bind/db.ns.local
+```
+
+```bash
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     ns.local. root.ns.local. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.local.
+@       IN      A       192.168.2.10
+dns     IN      A       192.168.2.10
+pop     IN      A       192.168.2.10
+pop3    IN      A       192.168.2.10
+imap    IN      A       192.168.2.10
+mail    IN      A       192.168.2.10
+smtp    IN      A       192.168.2.10
+```
+>Copy / Past ctrl+X....y....enter
+
+```bash
+root@ubuntu:/home/eleve# service bindg restart
+```
+```bash
+service binde status
+```
 <img width="1521" alt="Systemctl dind9" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/d564bbac-1417-448e-b80d-b09ee8ee530b">
+
+
+
+
+```bash
+named-checkcont /etc/bind/named.conf
+```
+
+```bash
+/home/eleve# named-checkzone ns. local /etc/bind/db.ns. local
+```
+
+```bash
+apt install resolvconf
+```
+
+
+
+
+
+
+
+
+
+
+---
 
 
 >Ubuntu Server Neofetch et ip a
