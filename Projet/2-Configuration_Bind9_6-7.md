@@ -58,12 +58,11 @@ smtp    IN      A       192.168.2.10
 
 
 ```bash
-service bindg restart
+service bind9 restart
 ```
 ```bash
 service binde status 
 ```
-> systemctl status bind9.service marche aussi
 </br>
 
 <img width="800" alt="Systemctl dind9" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/9a2f64ea-663d-471d-806b-bea1724299f7](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/blob/main/Projet/Photos/Systemctl%20dind9.png">
@@ -81,7 +80,7 @@ named-checkzone ns.local /etc/bind/db.ns.local
 
 
 
-### install resolvconf :
+### Install resolvconf :
 
 ```bash
 apt install resolvconf
@@ -89,6 +88,7 @@ apt install resolvconf
 </br>
 
 
+### Head
 
 ```bash
 nano /etc/resolvconf/resolv.conf.d/head
@@ -99,14 +99,16 @@ nameserver 8.8.8.8
 search ns.local
 ```
 >Copy / Past ctrl+X....y....enter
+</br>
 
 ```bash
 sudo reboot
 ```
 >login
->```bash
+
+```bash
 >sudo -s
->```
+```
 
 ---
 
