@@ -67,16 +67,6 @@ service binde status
 <img width="800" alt="Systemctl dind9" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/9a2f64ea-663d-471d-806b-bea1724299f7](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/blob/main/Projet/Photos/Systemctl%20dind9.png">
 
 
-
-```bash
-nano /etc/resolvconf/resolv.conf.d/head
-```
-
-
-
-
-![Alt text](Projet/Photos/Ping google Win11.png)
-
 ```bash
 named-checkcont /etc/bind/named.conf
 ```
@@ -84,6 +74,13 @@ named-checkcont /etc/bind/named.conf
 ```bash
 /home/eleve# named-checkzone ns. local /etc/bind/db.ns. local
 ```
+
+```bash
+nano /etc/resolvconf/resolv.conf.d/head
+```
+
+
+
 ### install resolvconf :
 
 ```bash
