@@ -8,7 +8,7 @@ apt install bind9
 ```
 </br>
 
-### Named.conf.local
+#### Named.conf.local
 ```bash
 nano /etc/bind/named.conf.local
 ```
@@ -23,7 +23,7 @@ zone "ns.local" {
 >Copy / Past ctrl+X....y....enter
 </br>
 
-### db.ns.local
+#### db.ns.local
 ```bash
 cp /etc/bind/db.local /etc/bind/db.ns.local
 ```
@@ -80,7 +80,7 @@ named-checkzone ns.local /etc/bind/db.ns.local
 
 
 
-### Install resolvconf :
+#### Install resolvconf :
 
 ```bash
 apt install resolvconf
@@ -88,7 +88,7 @@ apt install resolvconf
 </br>
 
 
-### Head :
+#### Head :
 
 ```bash
 nano /etc/resolvconf/resolv.conf.d/head
@@ -114,20 +114,23 @@ sudo -s
 ---
 </br>
 
-## Test est vérification :
+### Test est vérification :
 </br>
 
 
 #### Unbutu Server :
 </br>
 
+#### resolv.conf :
+
 ```bash
 nano /etc/resolv.conf
 ```
 
 ![server resolv conf](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/daf02988-a8ee-42a9-a7fd-489defa8a210)
+</br>
 
-### Ping test :
+#### Ping test :
 
 ```bash
 ping ns.local
@@ -152,27 +155,31 @@ ping mail.ns.local
 ```bash
 ping smtp.ns.local
 ```
+</br>
+</br>
 <img width="800" alt="Ping all server 2" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/b7f7b180-cda0-4fa9-bb1b-c3152618d726">
-
+</br>
 <img width="800" alt="Ping all from server dns pop pop3" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/8eac422e-307d-45c4-ba57-5efb43580710">
-
+</br>
+</br>
 
 ---
+</br>
 
-
-## Tests Ubuntu Destop : 
+### Tests Ubuntu Destop : 
 
 ```bash
 sudo -s
 ```
 >root power
-
+</br>
+#### Hosts :
 ```bash
 nano /etc/hosts
 ```
 
 ```bash
-  GNU nano 6.2                                                            /etc/hosts
+  GNU nano 6.2
 127.0.0.1 localhost
 127.0.1.1 ubuntu-linux-22-04-02-desktop
 192.168.2.10  ns.local
@@ -185,6 +192,7 @@ ff02::2 ip6-allrouters
 ```
 >Copy / Past ctrl+X....y....enter
 
+</br>
 ![desktop etc_hosts](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/fd0fa5ec-b6eb-40fd-961b-7a9a57fe9b56)
 
 
@@ -195,8 +203,9 @@ ff02::2 ip6-allrouters
 ping ns.local
 ```
 <img width="800" alt="Desktop Ubuntu ping nslocal" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/72cf6ad7-dcf5-487d-b73a-85a3ec8147b1">
+</br>
 
-### resolv.conf :
+### Resolv.conf :
 </br>
 
 ```bash
@@ -212,6 +221,8 @@ search ns.local
 
 
 >Copy / Past ctrl+X....y....enter
+
+</br>
 
 ```bash
 ping smpt.ns.local
