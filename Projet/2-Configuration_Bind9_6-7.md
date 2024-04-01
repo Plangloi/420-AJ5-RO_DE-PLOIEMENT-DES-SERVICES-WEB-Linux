@@ -1,6 +1,6 @@
 ## Configuration Bind9 sur Ubuntu Server (192.168.2.10):
 
-# Installation de Bind9
+# Installation de Bind9 :
 </br>
 
 ```bash
@@ -80,7 +80,7 @@ named-checkzone ns.local /etc/bind/db.ns.local
 
 
 
-#### Install resolvconf :
+<ins>#### Install resolvconf</ins> :
 
 ```bash
 apt install resolvconf
@@ -111,10 +111,12 @@ sudo -s
 ```
 
 </br>
+
 ---
+
 </br>
 
-### Test est vérification :
+## Test est vérification :
 </br>
 
 
@@ -166,13 +168,16 @@ ping smtp.ns.local
 ---
 </br>
 
-### Tests Ubuntu Destop : 
+### Tests Ubuntu Desktop : 
 
 ```bash
 sudo -s
 ```
 >root power
+
+
 </br>
+
 #### Hosts :
 ```bash
 nano /etc/hosts
@@ -193,6 +198,7 @@ ff02::2 ip6-allrouters
 >Copy / Past ctrl+X....y....enter
 
 </br>
+
 ![desktop etc_hosts](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/fd0fa5ec-b6eb-40fd-961b-7a9a57fe9b56)
 
 
