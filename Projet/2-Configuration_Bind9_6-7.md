@@ -8,7 +8,7 @@ apt install bind9
 ```
 </br>
 
-### named.conf.local
+### Named.conf.local
 ```bash
 nano /etc/bind/named.conf.local
 ```
@@ -88,7 +88,7 @@ apt install resolvconf
 </br>
 
 
-### Head
+### Head :
 
 ```bash
 nano /etc/resolvconf/resolv.conf.d/head
@@ -107,14 +107,19 @@ sudo reboot
 >login
 
 ```bash
->sudo -s
+sudo -s
 ```
 
+</br>
 ---
+</br>
 
-## Tests :
+## Test est vérification :
+</br>
 
-### Unbutu Server :
+
+#### Unbutu Server :
+</br>
 
 ```bash
 nano /etc/resolv.conf
