@@ -9,7 +9,7 @@ sudo -s
 ```
 
 ```bash
-sudo apt-get update
+apt-get update
 ```
 
 ```bash
