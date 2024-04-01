@@ -6,9 +6,9 @@
 apt install bind9
 ```
 
-## Configuration des fichier :
+## Configuration des fichiers :
 
-
+### named.conf.local
 ```bash
 nano /etc/bind/named.conf.local
 ```
@@ -64,12 +64,17 @@ service binde status
 > systemctl status bind9.service marche aussi
 
 
-<img width="1521" alt="Systemctl dind9" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/d564bbac-1417-448e-b80d-b09ee8ee530b">
+![Alt text](Projet/Photos/Ping google Win11.png)
 
 
 ```bash
 nano /etc/resolvconf/resolv.conf.d/head
 ```
+
+
+
+
+![Alt text](Projet/Photos/Ping google Win11.png)
 
 ```bash
 named-checkcont /etc/bind/named.conf
