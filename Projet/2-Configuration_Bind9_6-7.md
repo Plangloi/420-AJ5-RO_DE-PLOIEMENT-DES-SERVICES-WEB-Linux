@@ -1,12 +1,14 @@
 ## Configuration Bind9 sur Ubuntu Server (192.168.2.10):
 
-# Install Bind9
+# Installation de Bind9
+</br>
 
 ```bash
 apt install bind9
 ```
+</br>
 
-## Configuration des fichiers :
+
 
 ### named.conf.local
 ```bash
