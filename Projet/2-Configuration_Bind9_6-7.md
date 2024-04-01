@@ -64,7 +64,8 @@ service binde status
 > systemctl status bind9.service marche aussi
 
 
-![Alt text](Projet/Photos/Ping google Win11.png)
+<img width="800" alt="Systemctl dind9" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/9a2f64ea-663d-471d-806b-bea1724299f7](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/blob/main/Projet/Photos/Systemctl%20dind9.png">
+
 
 
 ```bash
@@ -112,12 +113,12 @@ sudo reboot
 ```bash
 nano /etc/resolv.conf
 ```
+![desktop resov_conf](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/667be82b-1e4f-4fd6-b78e-87c24b3b3e27)
 
-![nano :etc:resolv_conf](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/396060ad-8dd5-426e-a9ee-80eaa3617a64)
+<img width="800" alt="Ping all server 2" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/b7f7b180-cda0-4fa9-bb1b-c3152618d726">
 
-<img width="1052" alt="Ping all server 2" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/a6db2b89-85bc-44d4-ac57-178f9eb7c724">
+<img width="800" alt="Ping all from server dns pop pop3" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/8eac422e-307d-45c4-ba57-5efb43580710">
 
-<img width="1052" alt="Ping all from server dns pop pop3" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/bfe9b60b-63ce-481d-94f7-6c2abf000910">
 
 ```bash
 ping ns.local
@@ -176,7 +177,7 @@ ff02::2 ip6-allrouters
 ```bash
 ping ns.local
 ```
-<img width="934" alt="Desktop Ubuntu ping nslocal" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/612cf641-d835-4f94-9688-db2f8573f6a8">
+<img width="800" alt="Desktop Ubuntu ping nslocal" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/72cf6ad7-dcf5-487d-b73a-85a3ec8147b1">
 
 
 ```bash
@@ -190,23 +191,19 @@ search ns.local
 ```
 >Copy / Past ctrl+X....y....enter
 
-![desktop resov_conf](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/873b01dd-46a0-4eca-ac29-58ea0890e1ad)
+![desktop resov_conf](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/a76ab394-65db-4020-87ed-58511c05f137)
 
 ```bash
 ping smpt.ns.local
 ```
-![desktop ping smpt ns local](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/540e0b62-0edc-4945-b3af-f2fcb65b6c89)
 
-```bash
-ping smtp.ns.local
-```
-<img width="930" alt="Ping Desltop Ubuntu smtp" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/e084b33a-2a1a-4419-871e-82bf12c43704">
+<img width="930" alt="Ping Desltop Ubuntu smtp" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/4ef3abbb-53b3-487a-97cb-0aee40249895">
+
 
 ```bash
 dig mail.ns.local
 ```
-![dig mail ns local](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/0f3f01ac-a27a-41d8-a604-293a9bc11084)
-
+![dig mail ns local](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/cf23cf43-3bba-45d8-8f02-27e68104bc7e)
 
 ---
 
