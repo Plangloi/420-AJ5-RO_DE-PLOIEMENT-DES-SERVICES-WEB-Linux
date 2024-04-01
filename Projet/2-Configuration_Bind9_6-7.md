@@ -230,16 +230,16 @@ ping smpt.ns.local
 ```bash
 dig mail.ns.local
 ```
-</br>
-</br>
 <img width="800" alt="Ping Desltop Ubuntu smtp" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/4ef3abbb-53b3-487a-97cb-0aee40249895">
 
 ![dig mail ns local](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/9686ba44-d2c3-4c75-8314-164a3951c87e)
-
+</br>
+</br>
 
 ---
 
-## Test Windows 11
+### Test Windows 11
+</br>
 
 
 ```bash
@@ -252,6 +252,7 @@ ping imap.ns.local
 ```bash
 nslookup pop.ns.local
 ```
+</br>
 
 <img width="927" alt="Ping ns Windows" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/cbcc529f-71d7-46d3-a213-a0beab226b60">
 
