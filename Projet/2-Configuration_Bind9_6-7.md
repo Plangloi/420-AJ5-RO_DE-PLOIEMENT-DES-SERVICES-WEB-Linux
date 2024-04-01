@@ -4,6 +4,10 @@
 </br>
 
 ```bash
+sudo apt-get update
+```
+
+```bash
 apt install bind9
 ```
 </br>
