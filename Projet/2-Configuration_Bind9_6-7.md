@@ -3,6 +3,11 @@
 # Installation de Bind9 :
 </br>
 
+
+```bash
+sudo -s
+```
+
 ```bash
 sudo apt-get update
 ```
