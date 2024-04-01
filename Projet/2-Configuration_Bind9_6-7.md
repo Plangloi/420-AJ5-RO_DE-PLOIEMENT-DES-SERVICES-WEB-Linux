@@ -29,7 +29,7 @@ zone "ns.local" {
 };
 
 ```
->Copy / Past ctrl+X....y....enter
+>Enregistrez et fermez le fichier (Ctrl+X, Y, Entrée)
 </br>
 
 #### db.ns.local
@@ -62,7 +62,7 @@ imap    IN      A       192.168.2.10
 mail    IN      A       192.168.2.10
 smtp    IN      A       192.168.2.10
 ```
->Copy / Past ctrl+X....y....enter
+>Enregistrez et fermez le fichier (Ctrl+X, Y, Entrée)
 </br>
 
 
@@ -204,7 +204,8 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ```
->Copy / Past ctrl+X....y....enter
+>Enregistrez et fermez le fichier (Ctrl+X, Y, Entrée)
+
 
 </br>
 
