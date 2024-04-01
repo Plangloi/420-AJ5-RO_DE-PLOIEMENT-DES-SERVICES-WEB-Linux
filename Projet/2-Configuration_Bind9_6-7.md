@@ -8,8 +8,6 @@ apt install bind9
 ```
 </br>
 
-
-
 ### named.conf.local
 ```bash
 nano /etc/bind/named.conf.local
@@ -23,12 +21,15 @@ zone "ns.local" {
 
 ```
 >Copy / Past ctrl+X....y....enter
+</br>
 
 ### db.ns.local
+</br>
+
 ```bash
 cp /etc/bind/db.local /etc/bind/db.ns.local
 ```
-
+</br>
 
 ```bash
 nano /etc/bind/db.ns.local
@@ -56,6 +57,8 @@ mail    IN      A       192.168.2.10
 smtp    IN      A       192.168.2.10
 ```
 >Copy / Past ctrl+X....y....enter
+</br>
+
 
 ```bash
 service bindg restart
@@ -64,10 +67,11 @@ service bindg restart
 service binde status 
 ```
 > systemctl status bind9.service marche aussi
-
+</br>
 
 <img width="800" alt="Systemctl dind9" src="https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/9a2f64ea-663d-471d-806b-bea1724299f7](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/blob/main/Projet/Photos/Systemctl%20dind9.png">
 
+</br>
 
 ```bash
 named-checkcont /etc/bind/named.conf
@@ -76,12 +80,18 @@ named-checkcont /etc/bind/named.conf
 ```bash
 /home/eleve# named-checkzone ns.local /etc/bind/db.ns.local
 ```
+</br>
+
+
 
 ### install resolvconf :
 
 ```bash
 apt install resolvconf
 ```
+</br>
+
+
 
 ```bash
 nano /etc/resolvconf/resolv.conf.d/head
