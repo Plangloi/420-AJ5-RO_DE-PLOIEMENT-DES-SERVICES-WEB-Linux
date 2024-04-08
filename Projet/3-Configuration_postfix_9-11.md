@@ -73,9 +73,20 @@ recipient_delimiter = +
 inet_interfaces = all
 inet_protocols = all
 ```
+
+### ajouter des utilisateurs :
 ```bash
-vi /etc/postfix/sasl_passwd
+adduser [name]
 ```
-```bash
-postmap /etc/postfix/sasl_passwd
-```
+- lombard
+- luc
+- vincent
+- christelle
+- arnaud
+- karine
+- michel
+
+
+
+
+
