@@ -92,6 +92,25 @@ vi /etc/postfix/virtual
 ```bash
 postmap /etc/postfix/virtual
 ```
+### Test :
+
+```bash
+root@ubuntu-server:/home/ipat# mail patrice.langlois@protonmail.com
+Cc:
+Subject: Test de Mail Postfix
+
+Salut Pat
+
+    Ca marche ouiiiiiiiii!
+
+
+Pat
+
+
+root@ubuntu-server:/home/ipat#
+```
+![Mail test](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/967904e9-0eaa-4a06-a85c-052474122f5e)
+
 
 
 
