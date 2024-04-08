@@ -9,6 +9,8 @@ apt install postfix -y
 >type : Internet Site
 >Mail name : Ubuntu
 
+### Configuration de main.cf :
+
 ```bash
 # See /usr/share/postfix/main.cf.dist for a commented, more complete version
 
@@ -74,7 +76,8 @@ inet_interfaces = all
 inet_protocols = all
 ```
 
-### ajouter des utilisateurs :
+## Ajouter des utilisateurs :
+
 ```bash
 adduser [name]
 ```
@@ -89,6 +92,8 @@ adduser [name]
 ```bash
 vi /etc/postfix/virtual
 ```
+### Activer la modification avec :
+
 ```bash
 postmap /etc/postfix/virtual
 ```
