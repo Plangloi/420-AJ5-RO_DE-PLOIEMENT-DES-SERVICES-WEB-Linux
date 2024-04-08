@@ -23,7 +23,7 @@ vi /etc/dovecot/conf.d/10-ssl.conf
 vi /etc/dovecot/conf.d/10-auth.conf
 ```
 ```
-cd /etc/dovecot//private/
+cd /etc/dovecot/private/
 ```
 ```
 ls
