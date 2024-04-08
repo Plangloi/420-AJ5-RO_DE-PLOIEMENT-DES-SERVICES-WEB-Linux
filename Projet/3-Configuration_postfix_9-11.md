@@ -73,5 +73,9 @@ recipient_delimiter = +
 inet_interfaces = all
 inet_protocols = all
 ```
-
-
+```bash
+vi /etc/postfix/sasl_passwd
+```
+```bash
+postmap /etc/postfix/sasl_passwd
+```
