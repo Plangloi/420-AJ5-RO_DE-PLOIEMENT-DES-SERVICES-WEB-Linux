@@ -86,6 +86,12 @@ adduser [name]
 - karine
 - michel
 
+```bash
+vi /etc/postfix/virtual
+```
+```bash
+postmap /etc/postfix/virtual
+```
 
 
 
