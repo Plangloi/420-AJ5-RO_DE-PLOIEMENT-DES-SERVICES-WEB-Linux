@@ -22,3 +22,18 @@ vi /etc/dovecot/conf.d/10-ssl.conf
 ```bash
 vi /etc/dovecot/conf.d/10-auth.conf
 ```
+```
+cd /etc/dovecot//private/
+```
+```
+ls
+```
+```
+service dovecot restart
+```
+```
+service status
+```
+```
+systemctl status dovecot
+```
