@@ -142,7 +142,8 @@ Salut Pat
 Pat
 ```
 > ctrl + d
-> root@ubuntu-server:/home/ipat#
+>Pour Send
+
 
 ![Mail test](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/967904e9-0eaa-4a06-a85c-052474122f5e)
 
