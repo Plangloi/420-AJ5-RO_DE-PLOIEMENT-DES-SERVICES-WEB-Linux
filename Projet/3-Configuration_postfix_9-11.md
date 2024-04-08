@@ -7,6 +7,8 @@ sudo -s
 apt install postfix -y
 ```
 >type : Internet Site
+>
+>
 >Mail name : Ubuntu
 
 ### Configuration de main.cf :
@@ -75,6 +77,14 @@ recipient_delimiter = +
 inet_interfaces = all
 inet_protocols = all
 ```
+# Configuration du RELAIS SMTP
+
+```bash
+vi /etc/postfix/sasl_passwd
+```
+```bash
+Ex : [smtp.gmail.com]:587 [toi]@gmail.com:[password no space]
+```
 
 ## Ajouter des utilisateurs :
 
@@ -97,7 +107,27 @@ vi /etc/postfix/virtual
 ```bash
 postmap /etc/postfix/virtual
 ```
-### Test :
+## Configurer le fichier master.cf :
+
+```bash
+vi /etc/postfix/master.cf
+```
+![master files](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/1b469ded-6a73-479b-b29a-353c61284c9e)
+
+> decomanter la ligne  
+
+```bash
+systemctl restart postfix
+```
+### Verification que le service marche toujours :
+```bash
+systemctl status postfix
+```
+![Test status posfix](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/213d4162-4c9f-43ac-9c52-203d29213aa5)
+
+
+
+# Test :
 
 ```bash
 root@ubuntu-server:/home/ipat# mail patrice.langlois@protonmail.com
@@ -110,10 +140,10 @@ Salut Pat
 
 
 Pat
-
-
-root@ubuntu-server:/home/ipat#
 ```
+> ctrl + d
+> root@ubuntu-server:/home/ipat#
+
 ![Mail test](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/967904e9-0eaa-4a06-a85c-052474122f5e)
 
 
