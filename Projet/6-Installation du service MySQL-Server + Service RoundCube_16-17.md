@@ -44,6 +44,18 @@ ls -l /var/www/html/
 vi /etc/roundcube/config.inc.php
 ```
 
+# Tests du Webmail depuis les postes clients
+
+Ouvrire chrome ou ...
+
+```html
+http://ns.local/roundcube/
+```
+> Login
+
+
+![Roundcube test Karine](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/7ce73ace-eb2a-40f3-93da-dcab601c043e)
+
 
 
 
