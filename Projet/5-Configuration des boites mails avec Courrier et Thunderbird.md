@@ -74,9 +74,13 @@ inet_protocols = all
 service posfix restart
 ```
 
+## Windows 11 email configuration :
+
 ![Mail setup Windows ](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/a54824f7-84a2-4ae0-8407-8762d9801a20)
 
 >Windows Setup avec Thunderbird (Marche mieux)
+
+## Ubuntu Destop email Configuration  :
 
 ![Mail setup ubuntu Desktop](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/bed562b5-e326-4695-a19a-bd35218eaf20)
 
