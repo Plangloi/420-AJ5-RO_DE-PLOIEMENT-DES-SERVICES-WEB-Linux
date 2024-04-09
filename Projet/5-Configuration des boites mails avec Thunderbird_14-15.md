@@ -1,4 +1,4 @@
-# Configuration des boites mails avec Thunderbird
+# Configuration des boites mails avec Thunderbird :
 
 
 ```bash
