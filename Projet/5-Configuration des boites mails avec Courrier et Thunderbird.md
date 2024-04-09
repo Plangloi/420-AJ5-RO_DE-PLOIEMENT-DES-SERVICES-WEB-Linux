@@ -1,7 +1,5 @@
 # Configuration des boites mails avec Thunderbird
 
-[<img src="[http://www.google.com.au/images/nav_logo7.png">](http://google.com.au/](https://www.thunderbird.net/en-US/))
-
 
 ```bash
 vi /etc/postfix/main.cf
