@@ -1,4 +1,4 @@
-# Configuration des boites mails avec Courrier et Thunderbird
+# Configuration des boites mails avec Thunderbird
 ```bash
 vi /etc/postfix/main.cf
 ```
@@ -6,8 +6,14 @@ vi /etc/postfix/main.cf
 ```bash
 service posfix restart
 ```
-![Screenshot 2024-04-08 at 11 14 46 PM](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/4f87135f-4dcd-4a1b-90cf-edce721eef11)
 
+![Mail setup Windows ](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/a54824f7-84a2-4ae0-8407-8762d9801a20)
+
+>Windows Setup avec Thunderbird (Marche mieux)
+
+![Mail setup ubuntu Desktop](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/bed562b5-e326-4695-a19a-bd35218eaf20)
+
+>Ubuntu Destop setup avec Thunderbird
 
 
 # Tests des boites mails avec Courrier et Thunderbird :
