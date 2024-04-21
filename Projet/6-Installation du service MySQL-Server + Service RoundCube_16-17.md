@@ -157,12 +157,10 @@ $config['enable_spellcheck'] = false;
 ```
 
 # 17-Tests du Webmail depuis les postes clients
+Windows 11:
+1. Ouvrire chrome ou ...
 
-Ouvrire chrome ou ...
-
-```html
-http://ns.local/roundcube/
-```
+[http://ns.local/roundcube](http://ns.local/roundcube)
 > Login
 
 
