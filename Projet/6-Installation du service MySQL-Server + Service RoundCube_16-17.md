@@ -157,18 +157,27 @@ $config['enable_spellcheck'] = false;
 ```
 
 # 17-Tests du Webmail depuis les postes clients
-Windows 11:
-1. Ouvrire chrome ou ...
+## Windows 11 :
+1. Ouvrire chrome ou.....
+2. [http://ns.local/roundcube](http://ns.local/roundcube)
+3. Login : karine
+4. pasword: XXXX
+5. Evoyer email @ lombard@ns.local
 
-[http://ns.local/roundcube](http://ns.local/roundcube)
-> Login
 
-
+Verification de reception de email de Karine dans Thunderbird dans Windows 11 :
 ![Roundcube test Karine](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/7ce73ace-eb2a-40f3-93da-dcab601c043e)
 
+1. Ouvrire chrome ou.....
+2. [http://ns.local/roundcube](http://ns.local/roundcube)
+3. Login : Christelle
+4. pasword: XXXX
+5. Evoyer email @ arnaud@ns.local
 
-
+Verification de reception de email de Christelle dans Thunderbird dans Ubuntu Desktop :
 ![Roundcube test Christelle](https://github.com/Plangloi/420-AJ5-RO_DE-PLOIEMENT-DES-SERVICES-WEB-Linux/assets/48372629/6093e400-4ccc-4f8c-b21a-5c2a5a7cc1e0)
 
+Fin
 
+# Merci
 
