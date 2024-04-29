@@ -89,7 +89,7 @@ named-checkzone ns.local /etc/bind/db.ns.local
 
 
 
-<ins>#### Install resolvconf</ins> :
+#### Install resolvconf :
 
 ```bash
 apt install resolvconf
